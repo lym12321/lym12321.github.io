@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>耻辱柱</title>
+    <link href="/2023/%E8%80%BB%E8%BE%B1%E6%9F%B1/"/>
+    <url>/2023/%E8%80%BB%E8%BE%B1%E6%9F%B1/</url>
+    
+    <content type="html"><![CDATA[<center><h1 style="color: red;">警钟敲烂</h1></center><ul><li>2023年1月9日，把 $\vec a &#x3D; t(\vec b + \vec c)$ 理解成 $\vec a$ 平分 $\vec b$ 和 $\vec c$，<div id=1 style="display: inline-block;"></div></li></ul><script>    var dates = [        '2023-1-9'    ];    function GetDay(day) {        function doHandleMonth(month) {            var m = month;            if (month.toString().length == 1) {                m = "0" + month;            }            return m;        };        var today = new Date();        var targetday_milliseconds = today.getTime() + 1000 * 60 * 60 * 24 * day;        today.setTime(targetday_milliseconds);        var tYear = today.getFullYear();        var tMonth = today.getMonth();        var tDate = today.getDate();        tMonth = doHandleMonth(tMonth + 1);        tDate = doHandleMonth(tDate);        return tYear + "-" + tMonth + "-" + tDate;    }    function getDaysBetween(dateString1, dateString2) {        var startDate = Date.parse(dateString1);        var endDate = Date.parse(dateString2);        if (startDate > endDate) {            return 0;        }        if (startDate == endDate) {            return 1;        }        var days = (endDate - startDate) / (1 * 24 * 60 * 60 * 1000);        return days;    }    function getd(t) {        return getDaysBetween(t, GetDay(0));    }    for(var i = 0; i < dates.length; i++)        document.getElementById((i+1).toString()).innerHTML = '距今已有 ' + Math.trunc(getd(dates[i])) + ' 天.';</script>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>日常</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>复习笔记</title>
     <link href="/2023/%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <url>/2023/%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
@@ -15,6 +34,8 @@
     <tags>
       
       <tag>高考</tag>
+      
+      <tag>日常</tag>
       
     </tags>
     
