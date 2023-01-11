@@ -26,7 +26,7 @@
 <meta property="og:description" content="警钟长鸣，以示后人.">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-01-09T16:00:00.000Z">
-<meta property="article:modified_time" content="2023-01-09T16:22:24.988Z">
+<meta property="article:modified_time" content="2023-01-10T03:28:54.863Z">
 <meta property="article:author" content="鶸尛鱻">
 <meta property="article:tag" content="日常">
 <meta name="twitter:card" content="summary_large_image">
@@ -210,7 +210,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          909 字
+          93 字
         
       </span>
     
@@ -221,7 +221,7 @@
         
         
         
-          8 分钟
+          1 分钟
         
       </span>
     
@@ -266,49 +266,16 @@
                 
                 <center><h1 style="color: red;">警钟敲烂</h1></center>
 
+<script>
+    var dates = [
+        '2023-1-9',
+    ];
+</script>
+
 <ul>
 <li>2023年1月9日，把 $\vec a &#x3D; t(\vec b + \vec c)$ 理解成 $\vec a$ 平分 $\vec b$ 和 $\vec c$，<div id=1 style="display: inline-block;"></div></li>
 </ul>
-<script>
-    var dates = [
-        '2023-1-9'
-    ];
-    function GetDay(day) {
-        function doHandleMonth(month) {
-            var m = month;
-            if (month.toString().length == 1) {
-                m = "0" + month;
-            }
-            return m;
-        };
-        var today = new Date();
-        var targetday_milliseconds = today.getTime() + 1000 * 60 * 60 * 24 * day;
-        today.setTime(targetday_milliseconds);
-        var tYear = today.getFullYear();
-        var tMonth = today.getMonth();
-        var tDate = today.getDate();
-        tMonth = doHandleMonth(tMonth + 1);
-        tDate = doHandleMonth(tDate);
-        return tYear + "-" + tMonth + "-" + tDate;
-    }
-    function getDaysBetween(dateString1, dateString2) {
-        var startDate = Date.parse(dateString1);
-        var endDate = Date.parse(dateString2);
-        if (startDate > endDate) {
-            return 0;
-        }
-        if (startDate == endDate) {
-            return 1;
-        }
-        var days = (endDate - startDate) / (1 * 24 * 60 * 60 * 1000);
-        return days;
-    }
-    function getd(t) {
-        return getDaysBetween(t, GetDay(0));
-    }
-    for(var i = 0; i < dates.length; i++)
-        document.getElementById((i+1).toString()).innerHTML = '距今已有 ' + Math.trunc(getd(dates[i])) + ' 天.';
-</script>
+
                 
               </div>
             
@@ -726,5 +693,5 @@
   <noscript>
     <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
-</body>
+<!-- hexo injector body_end start --><script src="https://static.coraa.cn/js/crz.js"></script><!-- hexo injector body_end end --></body>
 </html>
