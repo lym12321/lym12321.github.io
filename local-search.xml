@@ -27,7 +27,7 @@
     <link href="/2023/%E8%80%BB%E8%BE%B1%E6%9F%B1/"/>
     <url>/2023/%E8%80%BB%E8%BE%B1%E6%9F%B1/</url>
     
-    <content type="html"><![CDATA[<center><h1 style="color: red;">警钟敲烂</h1></center><script>    var dates = [        '2023-1-9'    ];</script><ul><li>2023年1月9日，把 $\vec a &#x3D; t(\vec b + \vec c)$ 理解成 $\vec a$ 平分 $\vec b$ 和 $\vec c$，<div id=1 style="display: inline-block;"></div></li></ul>]]></content>
+    <content type="html"><![CDATA[<center><h1 style="color: red;">警钟敲烂</h1></center><script>    var dates = [        '2023-1-9',        '2023-1-23'    ];</script><ul><li>2023年1月9日，把 $\vec a &#x3D; t(\vec b + \vec c)$ 理解成 $\vec a$ 平分 $\vec b$ 和 $\vec c$，<div id=1 style="display: inline-block;"></div></li><li>2023年1月23日，把 $\frac{\pi}{2}$ 当 $\sin$ 函数零点，<div id=2 style="display: inline-block;"></div></li></ul>]]></content>
     
     
     
@@ -52,9 +52,9 @@
     
     <tags>
       
-      <tag>日常</tag>
-      
       <tag>高考</tag>
+      
+      <tag>日常</tag>
       
     </tags>
     
