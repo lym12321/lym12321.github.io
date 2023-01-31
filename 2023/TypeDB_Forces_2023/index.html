@@ -18,15 +18,15 @@
   <meta name="author" content="鶸尛鱻">
   <meta name="keywords" content="个人博客,学习笔记,杂事杂记,经验分享">
   
-    <meta name="description" content="一车数学结论题，啥也不会。">
+    <meta name="description" content="一车数学结论题，啥也不会.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="TypeDB Forces 2023">
 <meta property="og:url" content="https://blog.coraa.cn/2023/TypeDB_Forces_2023/index.html">
 <meta property="og:site_name" content="Rxy&#39;s Blog">
-<meta property="og:description" content="一车数学结论题，啥也不会。">
+<meta property="og:description" content="一车数学结论题，啥也不会.">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-01-30T05:34:02.000Z">
-<meta property="article:modified_time" content="2023-01-30T06:39:23.229Z">
+<meta property="article:modified_time" content="2023-01-31T05:13:58.038Z">
 <meta property="article:author" content="鶸尛鱻">
 <meta property="article:tag" content="CF">
 <meta name="twitter:card" content="summary_large_image">
@@ -264,14 +264,14 @@
             
               <div class="markdown-body">
                 
-                <center><del>一车数学结论题，啥也不会。真不如写我的物理作业了。</del></center>
+                <center><del>一车数学结论题，啥也不会. 真不如写我的物理作业了.</del></center>
 
 <h3 id="A-Exponential-Equation"><a href="#A-Exponential-Equation" class="headerlink" title="A. Exponential Equation"></a><a target="_blank" rel="noopener" href="https://codeforces.com/contest/1787/problem/A">A. Exponential Equation</a></h3><blockquote>
 <p>给一个整数 $n$，找任意一对 $(x, y)$ 满足 $x^y \cdot y + y^x \cdot x &#x3D; n$. 若没有，输出 $-1$.</p>
 </blockquote>
 <p>容易看出，若 $n$ 为奇数，则没有符合条件的 $(x, y)$.</p>
 <p>不妨令 $y &#x3D; 1$，则 $x$ 需满足 $2x &#x3D; n$ 即 $x &#x3D; \frac{n}{2}$.</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">if</span>(n &amp; <span class="hljs-number">1</span>) <span class="hljs-built_in">puts</span>(<span class="hljs-string">&quot;-1&quot;</span>);<br><span class="hljs-keyword">else</span> <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d 1&quot;</span>, n/<span class="hljs-number">2</span>);<br></code></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">if</span>(n &amp; <span class="hljs-number">1</span>) <span class="hljs-built_in">puts</span>(<span class="hljs-string">&quot;-1&quot;</span>);<br><span class="hljs-keyword">else</span> <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d 1\n&quot;</span>, n/<span class="hljs-number">2</span>);<br></code></pre></td></tr></table></figure>
 
 <h3 id="B-Number-Factorization"><a href="#B-Number-Factorization" class="headerlink" title="B. Number Factorization"></a><a target="_blank" rel="noopener" href="https://codeforces.com/contest/1787/problem/B">B. Number Factorization</a></h3><blockquote>
 <p>给一个整数 $n$，把它分解成 $\prod a_i^{p_i}$（$a_i &gt; 1, p_i &gt; 0$）的形式，要求 $a_i$ 是若干个<strong>不同质数</strong>之积.</p>
