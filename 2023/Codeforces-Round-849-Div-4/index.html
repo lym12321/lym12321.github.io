@@ -27,7 +27,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://static.coraa.cn/img/202302041110818.png">
 <meta property="article:published_time" content="2023-02-04T02:43:36.000Z">
-<meta property="article:modified_time" content="2023-02-04T03:20:32.061Z">
+<meta property="article:modified_time" content="2023-02-04T03:24:14.512Z">
 <meta property="article:author" content="鶸尛鱻">
 <meta property="article:tag" content="CF">
 <meta name="twitter:card" content="summary_large_image">
@@ -313,7 +313,7 @@
 <p>你现在有 $c$ 个金币，问你最多能用几个传送台.</p>
 </blockquote>
 <p>想要使用一个传送台，我们需要从原点走到传送台，再花费对应的代价回到原点.</p>
-<p>所以第 $i$ 个传送台的“使用代价”为 $a_i + i$，所以我们只需要按照其使用代价从小到大排序，看看手里的硬币够用几个的就行了.</p>
+<p>所以第 $i$ 个传送台的“使用代价”为 $a_i + i$，我们只需要按照其使用代价从小到大排序，看看手里的硬币够用几个的就行了.</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs cpp">ll n, c, a[<span class="hljs-number">200005</span>];<br> <br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">solve</span><span class="hljs-params">()</span></span>&#123;<br>    n = <span class="hljs-built_in">read</span>(), c = <span class="hljs-built_in">read</span>();<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; i++) a[i] = <span class="hljs-built_in">read</span>() + i;<br>    std::<span class="hljs-built_in">sort</span>(a+<span class="hljs-number">1</span>, a+<span class="hljs-number">1</span>+n);<br>    <span class="hljs-type">int</span> now = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; i++)&#123;<br>        <span class="hljs-keyword">if</span>(now + a[i] &lt;= c) now += a[i];<br>        <span class="hljs-keyword">else</span>&#123;<br>            <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d\n&quot;</span>, i<span class="hljs-number">-1</span>);<br>            <span class="hljs-keyword">return</span>;<br>        &#125;<br>    &#125;<br>    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d\n&quot;</span>, n);<br>&#125;<br></code></pre></td></tr></table></figure>
 
 <p><del>这是个比较愚蠢的写法，但我懒得改了.</del></p>
