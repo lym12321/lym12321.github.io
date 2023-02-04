@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.coraa.cn/2023/Codeforces-Round-849-Div-4/</loc>
+    
+    <lastmod>2023-02-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.coraa.cn/2023/Codeforces-Round-848-Div-2/</loc>
     
     <lastmod>2023-02-02</lastmod>
@@ -58,29 +67,29 @@
 
   <url>
     <loc>https://blog.coraa.cn/</loc>
-    <lastmod>2023-02-02</lastmod>
+    <lastmod>2023-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://blog.coraa.cn/tags/%E9%AB%98%E8%80%83/</loc>
+    <lastmod>2023-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.coraa.cn/tags/%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2023-02-02</lastmod>
+    <lastmod>2023-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.coraa.cn/tags/CF/</loc>
-    <lastmod>2023-02-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.coraa.cn/tags/%E9%AB%98%E8%80%83/</loc>
-    <lastmod>2023-02-02</lastmod>
+    <lastmod>2023-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
