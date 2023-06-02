@@ -1,4 +1,5 @@
-https://blog.coraa.cn/2023/%E6%B8%B8%E8%AE%B0-20230318-%E8%8B%B1%E8%AF%AD%E4%B8%80%E8%80%83/
+https://blog.coraa.cn/2023/%E9%AB%98%E8%80%83%E6%B8%B8%E8%AE%B0/
+https://blog.coraa.cn/2023/%E8%8B%B1%E8%AF%AD%E4%B8%80%E8%80%83%E6%B8%B8%E8%AE%B0/
 https://blog.coraa.cn/2023/Codeforces-Round-849-Div-4/
 https://blog.coraa.cn/2023/Codeforces-Round-848-Div-2/
 https://blog.coraa.cn/2023/TypeDB-Forces-2023/
